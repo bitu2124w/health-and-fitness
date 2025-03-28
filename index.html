@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Health & Fitness</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Health & Fitness</h1>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Your Health Journey</h2>
+            <p>Your fitness and wellness journey begins now.</p>
+            <button class="cta-btn" onclick="scrollToSection('about')">Start Now</button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>We are dedicated to helping you lead a healthier and happier life through fitness and nutrition.</p>
+            <!-- Link to Diet Chart page -->
+            <a href="diet-chart.html" class="redirect-btn">View Diet Chart</a>
+            <!-- Link to Everyday Workout page -->
+            <a href="everyday-workout.html" class="redirect-btn">View Everyday Workout</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>TIPS</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Wealth Building Tips</h3>
+                <a href="tips1.html">Click here</a>
+            </div>
+            <div class="card">
+                <h3>Fitness and Health Tips</h3>
+                <a href="tips2.html">Click here</a>
+            </div>
+            <div class="card">
+                <h3>Mindset and Motivation</h3>
+                <a href="tips3.html">Click here</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Health & Fitness. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

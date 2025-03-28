@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background:rgb(0, 219, 238);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+    color: #ffd700;
+}
+
+.hero {
+    background: url('https://source.unsplash.com/1600x900/?fitness') no-repeat center center/cover;
+    color: black;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-btn {
+    background-color: #ffd700;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #ffcc00;
+}
+
+section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.about, .services, .contact {
+    background-color:rgb(0, 219, 238);
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+.services .service-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(31, 42, 171);
+    color: white;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes slideIn {
+    0% { transform: translateY(-50px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+.redirect-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.redirect-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Calendar container */
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* Calendar styling */
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 columns (for 7 days of the week) */
+    grid-gap: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Calendar header - days of the week */
+.calendar-header {
+    display: contents;
+    font-weight: bold;
+    text-align: center;
+}
+
+.calendar-header div {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Calendar body - individual days */
+.calendar-body {
+    display: contents;
+}
+
+.calendar-day {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+}
+
+.calendar-day a {
+    text-decoration: none;
+    color: #34495e;
+    font-weight: bold;
+}
+
+/* Hover effect on days */
+.calendar-day a:hover {
+    color: #1abc9c;
+}
+
+/* Weekends styling */
+.calendar-day:nth-child(7), .calendar-day:nth-child(1) {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.calendar-day:nth-child(7) a:hover, .calendar-day:nth-child(1) a:hover {
+    color: white;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
